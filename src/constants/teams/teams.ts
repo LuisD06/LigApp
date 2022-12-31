@@ -1,0 +1,268 @@
+import { Team } from '../../utils/interfaces/team';
+
+export const TEAMS : Team[] = [
+  { 
+    id: 0,
+    logo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6017.png',
+    position: 1,
+    name: 'Aucas', 
+    shortName: 'AUC',
+    playedGames: 15, 
+    wins: 9, 
+    ties: 6, 
+    defeats: 0, 
+    scoredGoals: 28, 
+    againstGoals: 9, 
+    goalDifference: 19, 
+    points: 33,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'win'}
+    ]
+  },
+  { 
+    id: 1,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 2,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 3,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 4,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 5,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 6,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 7,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 8,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 9,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 10,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+  { 
+    id: 11,
+    logo: 'https://logodownload.org/wp-content/uploads/2020/02/independiente-del-valle-logo-1.png',
+    name: 'Independiente del Valle', 
+    playedGames: 15, 
+    shortName: 'IND',
+    position: 2,
+    wins: 9, 
+    ties: 2, 
+    defeats: 4, 
+    scoredGoals: 20, 
+    againstGoals: 16, 
+    goalDifference: 4, 
+    points: 29,
+    lastFiveMatches: [
+      {id: 0, result: 'win'}, 
+      {id: 1, result: 'win'}, 
+      {id: 2, result: 'draw'}, 
+      {id: 3, result: 'draw'}, 
+      {id:4, result: 'defeat'}
+    ]
+  },
+]
