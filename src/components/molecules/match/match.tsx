@@ -3,8 +3,8 @@ import { Image, Text, View } from 'react-native'
 import { MatchStyle } from './match-style'
 interface MatchProps {
   team1: string
-  team1Logo: string
-  team2Logo: string
+  team1Logo?: string
+  team2Logo?: string
   team2: string
   date: string
   time: string
